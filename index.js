@@ -1,11 +1,12 @@
 // Function to write thank you cards
 function writeCards(names, eventName) {
-  let thankYouMessages = [];
+  let messages = [];
   for (let i = 0; i < names.length; i++) {
-    thankYouMessages.push(`Thank you, ${names[i]}, for the wonderful ${eventName} gift!`);
+    messages.push(`Thank you, ${names[i]}, for the wonderful ${eventName} gift!`);
   }
-  return thankYouMessages;
+  return messages;
 }
+
 
 // Function to count down to zero
 function countDown(startingNumber) {
@@ -14,3 +15,5 @@ function countDown(startingNumber) {
     startingNumber--;
   }
 }
+
+ 
